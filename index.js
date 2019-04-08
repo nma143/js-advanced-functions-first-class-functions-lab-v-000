@@ -5,5 +5,5 @@ let selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
 function createFareMultiplier(multiplier)
 {
-  return function(fare){fare*multiplier};
+  return function(fare){return fare*multiplier};
 }
